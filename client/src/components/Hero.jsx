@@ -20,8 +20,8 @@ const Hero = () => {
     { 
       id: 1, 
       icon: Users, 
-      label: '1000+ Retailers', 
-      sub: 'Connected Daily', 
+      label: '67,500+ Retailers', 
+      sub: 'Served', 
       pos: 'top-[10%] -left-[10%]', 
       delay: 0,
       color: 'green'
@@ -47,7 +47,7 @@ const Hero = () => {
     { 
       id: 4, 
       icon: TrendingUp, 
-      label: '15+ States', 
+      label: '5+ States', 
       sub: 'Growing Network', 
       pos: 'bottom-[10%] -right-[10%]', 
       delay: 1.5,
@@ -152,7 +152,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <div className="text-xs font-black text-gray-900 leading-none mb-1">30+ Years Trust</div>
-                  <div className="text-[9px] font-bold text-gray-500 uppercase tracking-widest leading-none">500+ Distributors</div>
+                  <div className="text-[9px] font-bold text-gray-500 uppercase tracking-widest leading-none">225+ Super Distributors</div>
                 </div>
               </motion.div>
 

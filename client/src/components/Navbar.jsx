@@ -50,7 +50,7 @@ const Navbar = () => {
               href="#apply" 
               className="bg-[#0f7643] text-white px-6 py-2.5 rounded-lg font-bold flex items-center gap-2 hover:bg-[#0d6439] transition-all shadow-md"
             >
-              Become a Distributor <span>&rarr;</span>
+              Become a Super Distributor <span>&rarr;</span>
             </motion.a>
           </div>
 
@@ -102,7 +102,7 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   className="block w-full text-center bg-[#0f7643] text-white px-8 py-4 rounded-2xl font-bold shadow-xl shadow-green-900/20 active:scale-95 transition-all text-lg"
                 >
-                  Become a Distributor &rarr;
+                  Become a Super Distributor &rarr;
                 </a>
               </motion.div>
             </div>

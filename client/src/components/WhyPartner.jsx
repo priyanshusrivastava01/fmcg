@@ -5,7 +5,7 @@ import {
   ShieldCheck, Package, TrendingUp, IndianRupee, Users, ArrowRight, Star
 } from 'lucide-react';
 import warehouseImg from '../assets/warehouse_handshake.png';
-import truckImg from '../assets/distributor_truck.png';
+import truckImg from '../assets/Service/ChatGPT Image Jul 11, 2026, 01_09_57 PM.webp';
 
 const features = [
   {
@@ -21,7 +21,7 @@ const features = [
   {
     icon: Network,
     title: 'Deep Rural & Urban Reach',
-    desc: 'Access a massive network of 500+ distributors across 7 states, reaching even the most remote retail touchpoints.',
+    desc: 'Access a massive network of 225+ super distributors across 5+ states, reaching even the most remote retail touchpoints.',
   },
   {
     icon: TrendingUp,
@@ -192,7 +192,7 @@ const WhyPartner = () => {
               href="#apply"
               className="flex items-center gap-2 bg-[#007A4D] hover:bg-[#005a37] text-white px-6 py-3 rounded-xl font-bold text-sm transition-colors duration-200"
             >
-              Become a Distributor <ArrowRight size={16} />
+              Become a Super Distributor <ArrowRight size={16} />
             </a>
             <a
               href="#contact"

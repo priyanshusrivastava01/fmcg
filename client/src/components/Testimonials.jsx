@@ -6,7 +6,7 @@ const testimonials = [
   {
     name: "Rajesh Kumar",
     role: "Retailer, Jaipur",
-    text: "Since partnering with Vardha Distributors, my shop's inventory turnover has increased by 40%. Their 24-hour dispatch is a game-changer for my business.",
+    text: "Since partnering with Vardha Super Distributors, my shop's inventory turnover has increased by 40%. Their 24-hour dispatch is a game-changer for my business.",
     rating: 5,
     metric: "+40% Sales Growth",
     initials: "RK",
@@ -52,7 +52,7 @@ const Testimonials = () => {
             What Our <span className="text-green-600">Partners Say</span>
           </h2>
           <p className="text-gray-700 max-w-2xl mx-auto text-lg font-bold">
-            Don't just take our word for it. Hear from the retailers and distributors who are growing their business with us.
+            Don't just take our word for it. Hear from the retailers and super distributors who are growing their business with us.
           </p>
         </div>
 
@@ -103,8 +103,8 @@ const Testimonials = () => {
         {/* Success Metrics */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-100 pt-12">
           {[
-            { icon: Store, value: "5,000+", label: "Active Retailers" },
-            { icon: Users, value: "500+", label: "Distributors" },
+            { icon: Store, value: "67,500+", label: "Active Retailers" },
+            { icon: Users, value: "225+", label: "Super Distributors" },
             { icon: TrendingUp, value: "25%", label: "Avg. Partner Growth" },
             { icon: Star, value: "4.8/5", label: "Partner Satisfaction" }
           ].map((item, i) => (

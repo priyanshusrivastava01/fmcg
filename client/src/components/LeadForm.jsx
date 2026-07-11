@@ -6,7 +6,7 @@ import {
   ShieldCheck, Handshake, IndianRupee, Headset, Truck,
   Package, TrendingUp, ArrowRight, Lock, ClipboardList
 } from 'lucide-react';
-import productsImg from '../assets/fmcg_products_cart.png';
+import productsImg from '../assets/fmcg_products_cart_new.png';
 
 const indianStates = [
   'Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Goa','Gujarat',
@@ -142,7 +142,7 @@ const LeadForm = () => {
                 Join our strong network of distributors and get access to top brands, best margins and complete business support.
               </p>
 
-              <div className="space-y-5">
+              <div className="space-y-5 md:space-y-6">
                 {leftFeatures.map((f, i) => (
                   <div key={i} className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-xl bg-[#FFF0EF] flex items-center justify-center flex-shrink-0">
@@ -157,12 +157,11 @@ const LeadForm = () => {
               </div>
             </div>
 
-            {/* Products Image */}
-            <div className="mt-8 flex justify-center">
+            <div className="mt-auto pt-6 flex justify-center items-end">
               <img
                 src={productsImg}
                 alt="FMCG Products"
-                className="w-full max-w-sm h-52 object-contain"
+                className="w-full max-w-md h-64 md:h-[320px] object-contain hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>

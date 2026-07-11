@@ -7,18 +7,12 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          <div className="col-span-1 md:col-span-1">
-            <img src={logo} alt="Shreeji Distributors Logo" className="h-16 w-auto mb-6" />
-            <p className="text-gray-400 text-sm leading-relaxed mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div>
+            <img src={logo} alt="Vardha Logo" className="h-16 w-auto mb-6" />
+            <p className="text-gray-400 text-sm leading-relaxed">
               Delivering excellence and quality products across the nation for over 30 years. Your trusted partner in FMCG distribution.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors"><FaFacebook size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors"><FaTwitter size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors"><FaInstagram size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors"><FaLinkedin size={20} /></a>
-            </div>
           </div>
           
           <div>
@@ -28,16 +22,6 @@ const Footer = () => {
               <li><a href="#products" className="hover:text-green-400 transition-colors">Our Products</a></li>
               <li><a href="#services" className="hover:text-green-400 transition-colors">Distributor Support</a></li>
               <li><a href="#apply" className="hover:text-green-400 transition-colors">Apply Now</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="text-white font-black text-sm uppercase tracking-[0.2em] mb-8">Legal</h4>
-            <ul className="space-y-4 text-sm font-bold">
-              <li><a href="#" className="hover:text-green-400 transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-green-400 transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-green-400 transition-colors">Distributor Agreement</a></li>
-              <li><a href="#" className="hover:text-green-400 transition-colors">Return Policy</a></li>
             </ul>
           </div>
           
@@ -61,8 +45,8 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 pb-20 md:pb-0">
-          <p className="text-center md:text-left">&copy; {new Date().getFullYear()} Vardha. All rights reserved.</p>
-          <p className="mt-4 md:mt-0 text-center md:text-right">Designed for Growth.</p>
+          <p className="text-center md:text-left">&copy; {new Date().getFullYear()} Vardha FMCG. All rights reserved.</p>
+          <p className="mt-4 md:mt-0 text-center md:text-right"></p>
         </div>
       </div>
     </footer>

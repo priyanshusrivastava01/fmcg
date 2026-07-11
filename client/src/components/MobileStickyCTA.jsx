@@ -40,7 +40,7 @@ const MobileStickyCTA = () => {
             className="flex-1 bg-[#111827] text-white py-3.5 px-3 rounded-xl font-black text-[11px] tracking-wider uppercase flex items-center justify-center gap-2 shadow-lg active:scale-95 transition-transform"
           >
             <FileText size={14} strokeWidth={2.5} />
-            Become Distributor
+            Become Super Distributor
           </button>
           <a
             href="https://wa.me/919670111167?text=Hello%20Vardha%20Team!%20I%20am%20interested%20in%20partnering%20with%20you."

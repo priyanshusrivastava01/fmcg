@@ -23,7 +23,6 @@ const categories = [
   { id: 'snacks', name: 'Biscuits & Snacks', icon: Cookie },
   { id: 'home', name: 'Home Care', icon: Home },
   { id: 'beverages', name: 'Food & Beverages', icon: Coffee },
-  { id: 'personal', name: 'Personal Care', icon: Sparkles },
 ];
 
 const products = [
