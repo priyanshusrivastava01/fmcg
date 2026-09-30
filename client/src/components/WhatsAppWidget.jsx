@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MessageCircle } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const WhatsAppWidget = () => {
   return (
@@ -14,7 +14,7 @@ const WhatsAppWidget = () => {
       className="hidden md:flex fixed bottom-10 right-10 z-40 bg-[#25D366] text-white w-16 h-16 rounded-full items-center justify-center shadow-lg shadow-green-900/30 hover:scale-110 hover:shadow-xl transition-all"
       aria-label="Chat on WhatsApp"
     >
-      <MessageCircle size={32} strokeWidth={2} />
+      <FaWhatsapp size={36} />
       <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full border-2 border-white shadow-sm">
         1
       </span>

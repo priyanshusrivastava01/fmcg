@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FileText, PhoneCall } from 'lucide-react';
+import { FileText } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const MobileStickyCTA = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -48,7 +49,7 @@ const MobileStickyCTA = () => {
             rel="noopener noreferrer"
             className="flex-1 bg-[#25D366] text-white py-3.5 px-3 rounded-xl font-black text-[11px] tracking-wider uppercase flex items-center justify-center gap-2 active:scale-95 transition-all shadow-lg shadow-green-900/20"
           >
-            <PhoneCall size={14} strokeWidth={2.5} />
+            <FaWhatsapp size={16} />
             WhatsApp
           </a>
         </motion.div>
